@@ -11,8 +11,13 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-            echo "Dokimazw allages";
-            
+        echo"<html>
+        <div class='temp'>
+        <link rel='stylesheet' type='text/css' href='index.css' />
+        <a href=''><input class='connection' type='button' value='Εγγραφή/Σύνδεση'></a>
+	
+         </div>      
+         ";  
         ?>
     </body>
 </html>
