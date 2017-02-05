@@ -7,14 +7,14 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>KopseKati - Αρχική</title>
     </head>
     <body>
         <?php
         echo"<html>
         <div class='intro'>
             <link rel='stylesheet' type='text/css' href='stylesheets/index.css' />
-            <a href=''><input class='connection' type='button' value='Εγγραφή/Σύνδεση'></a>
+            <a href='signup.php'><input class='connection' type='button' value='Εγγραφή/Σύνδεση'></a>
         </div><br/>
         <div class='intro'>
             <h1> Καλώς ήρθατε στο KopseKati.gr</h1>
