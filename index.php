@@ -13,7 +13,7 @@ and open the template in the editor.
         <?php
         echo"<html>
         <div class='intro'>
-            <link rel='stylesheet' type='text/css' href='index.css' />
+            <link rel='stylesheet' type='text/css' href='stylesheets/index.css' />
             <a href=''><input class='connection' type='button' value='Εγγραφή/Σύνδεση'></a>
         </div><br/>
         <div class='intro'>
@@ -21,9 +21,9 @@ and open the template in the editor.
             <p> Εδώ θα βρείτε διάφορες προσφορές στον τομέα που σας ενδιαφέρει.<br/>
             Κάνε εγγραφή και μην χάσεις καμία προσφορά.</p>
             <ul id='slides'>
-                <li class='slide showing'><img src='sample.jpg' style='width:100%'></li>
-                <li class='slide'><img src='sample2.jpg' style='width:100%'></li>
-                <li class='slide'><img src='sample3.jpg' style='width:100%'></li>
+                <li class='slide showing'><img src='images/sample.jpg' style='width:100%'></li>
+                <li class='slide'><img src='images/sample2.jpg' style='width:100%'></li>
+                <li class='slide'><img src='images/sample3.jpg' style='width:100%'></li>
             </ul>
        <script>
             var slides = document.querySelectorAll('#slides .slide');
