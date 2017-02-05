@@ -12,7 +12,7 @@ and open the template in the editor.
     <body>
         <?php
         echo"<html>
-        <div class='temp'>
+        <div class='intro'>
             <link rel='stylesheet' type='text/css' href='index.css' />
             <a href=''><input class='connection' type='button' value='Εγγραφή/Σύνδεση'></a>
         </div><br/>
@@ -25,7 +25,6 @@ and open the template in the editor.
                 <li class='slide'><img src='sample2.jpg' style='width:100%'></li>
                 <li class='slide'><img src='sample3.jpg' style='width:100%'></li>
             </ul>
-        </div>
        <script>
             var slides = document.querySelectorAll('#slides .slide');
             var currentSlide = 0;
