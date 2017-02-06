@@ -10,6 +10,7 @@
             <a href='signup.php'><input class='connection' type='button' value='Εγγραφή/Σύνδεση'></a>
         </div><br/>
         <div class='intro'>
+            <div style='margin-left:20%'><a href='index.php'><img src='images/kopse10_min.png'></img></a></div>
             <h1> Καλώς ήρθατε στο KopseKati.gr</h1>
             <p> Εδώ θα βρείτε διάφορες προσφορές στον τομέα που σας ενδιαφέρει.<br/>
             Κάνε εγγραφή και μην χάσεις καμία προσφορά.</p>
