@@ -1,19 +1,12 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
         <meta charset="UTF-8">
         <title>KopseKati - Αρχική</title>
+        <link rel='stylesheet' type='text/css' href='stylesheets/index.css' />
     </head>
     <body>
-        <?php
-        echo"<html>
         <div class='intro'>
-            <link rel='stylesheet' type='text/css' href='stylesheets/index.css' />
             <a href='signup.php'><input class='connection' type='button' value='Εγγραφή/Σύνδεση'></a>
         </div><br/>
         <div class='intro'>
@@ -25,18 +18,16 @@ and open the template in the editor.
                 <li class='slide'><img src='images/sample2.jpg' style='width:100%'></li>
                 <li class='slide'><img src='images/sample3.jpg' style='width:100%'></li>
             </ul>
-       <script>
+        </div>
+        <script>
             var slides = document.querySelectorAll('#slides .slide');
             var currentSlide = 0;
             var slideInterval = setInterval(nextSlide,2000);
-
             function nextSlide() {
                 slides[currentSlide].className = 'slide';
                 currentSlide = (currentSlide+1)%slides.length;
                 slides[currentSlide].className = 'slide showing';
             }
         </script>
-         ";  
-        ?>
     </body>
 </html>
