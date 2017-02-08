@@ -1,0 +1,67 @@
+.header {
+    height: 100px;
+    background-color: FireBrick;
+    margin-left:22%;
+    margin-right:22%;
+    font-size: 12px;
+}
+
+.white, .white a, .white a:hover {
+    color: White;
+}
+
+.signin {
+    float: right;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 0px;
+    display: inline-block;
+    cursor: pointer;
+    background-color: White;
+    color: FireBrick;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-top: 12px;
+    margin-right: 18px;
+}
+
+.date {
+    margin-right: 18px;
+    padding-top: 7px;
+}
+
+#logo {
+    float: left;
+}
+
+#logo_img {
+    margin-left: 18px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+#info {
+    padding-top: 52px;
+    margin-right: 18px;
+}
+
+#info ul li {
+    display: inline;
+}
+
+/* for the modal login: */
+
+.modal-header, h4, .close {
+    background-color: #5cb85c;
+    color:white !important;
+    text-align: center;
+    font-size: 30px;
+}
+
+.modal-footer {
+    background-color: #f9f9f9;
+    /* dika mou: */
+    margin-left: 35px;
+    margin-right: 35px;
+}
