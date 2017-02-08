@@ -61,7 +61,10 @@
 
 .modal-footer {
     background-color: #f9f9f9;
-    /* dika mou: */
+}
+.modal-footer button {
     margin-left: 35px;
+}
+.modal-footer p {
     margin-right: 35px;
 }
