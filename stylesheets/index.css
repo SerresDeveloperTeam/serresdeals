@@ -1,4 +1,6 @@
-
+*{
+    font-family:Georgia;
+}
 .connection {
         float:right;
         -webkit-border-radius:6px;
@@ -63,4 +65,30 @@
     box-sizing: border-box;
     background: #333;
     color: #fff;
+}
+table{
+    margin-top:20px;
+    border:2px solid black;
+    width:500px;
+    box-shadow:10px 10px 5px #888888;
+    background-color:#f8f8ff;
+   
+	
+}
+.eikona{
+    border:1px solid gray;
+    height:200px;
+    
+}
+.onoma{
+     text-transform: uppercase;
+}
+.plhr{
+    font-size:12px;
+}
+.firstprice{
+    color:gray;
+}
+.finalprice{
+    color: #990000;
 }
