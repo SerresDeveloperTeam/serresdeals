@@ -17,7 +17,7 @@
         <div class='header'>
             <!-- Code for the display and function of the logo: -->
             <div id='logo'>
-                <a href=''><img id='logo_img' src='images/kopsekati5.png'></img></a>
+                <a href=''><img id='logo_img' src='images/kopsekati6.png'></img></a>
             </div>
             <!-- Code to display date in Greek: -->
             <div class='date white' style='text-align: right'><script>gr_date();</script></div>
