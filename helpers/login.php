@@ -16,7 +16,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     $result = mysql_query($sql);
     $count = mysql_num_rows($result);
     if($count == 1) {
-        header("location: index.php");
+        header("location: ../index.php");
     } else {
         header("location: https://www.youtube.com/");
     }
